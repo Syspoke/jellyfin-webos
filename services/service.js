@@ -25,7 +25,7 @@ var client4 = dgram.createSocket("udp4");
 // 	client6 = false;
 // }
 
-const JELLYFIN_DISCOVERY_PORT = 7359;
+const JELLYFIN_DISCOVERY_PORT = 7360;
 const JELLYFIN_DISCOVERY_MESSAGE = "who is JellyfinServer?";
 
 const SCAN_INTERVAL = 15 * 1000;
