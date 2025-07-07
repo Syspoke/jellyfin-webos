@@ -11,6 +11,6 @@
     "vendor": "Jellyfin Project",
     "largeIcon": "assets/icon-130.png",
     "iconColor": "#000b25",
-    "id": "org.jellyfin.webos",
+    "id": "org.jellyfin2.webos",
     "disableBackHistoryAPI": true
 }
