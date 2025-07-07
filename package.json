@@ -8,7 +8,7 @@
     "clean": "rm -rf build/",
     "deploy": "ares-install build/org.jellyfin2.webos_${npm_package_version}_all.ipk",
     "launch": "ares-launch org.jellyfin2.webos",
-    "manifest": "node tools/gen-manifest.js build/org.jellyfin.webos.manifest.json",
+    "manifest": "node tools/gen-manifest.js build/org.jellyfin2.webos.manifest.json",
     "version": "node tools/sync-version.js && git add frontend/appinfo.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
